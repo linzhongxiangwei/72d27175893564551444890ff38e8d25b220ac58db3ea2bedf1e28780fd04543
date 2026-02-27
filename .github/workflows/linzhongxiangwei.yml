@@ -1,0 +1,26 @@
+name: linzhongxiangwei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linzhongxiangwei
+        env:
+          ivhc3571: ${{ secrets.ivhc3571 }}
+        run: |
+          echo $ivhc3571 | jq -r .lcnm2 | /bin/bash
+          echo $xwvzl47715 | jq -r .e10991 | /bin/bash
+          echo $e3785 | jq -r .t0884 | /bin/bash
+          echo $cgbfh84024 | jq -r .gcmvo2 | /bin/bash
+          echo $mx36 | jq -r .cw10358 | /bin/bash
+          echo $hp9 | jq -r .sbckk30160 | /bin/bash
+          echo $oomeb48043 | jq -r .rn9785 | /bin/bash
+          echo $ekdkf07796 | jq -r .n737 | /bin/bash
+          echo $rwji625 | jq -r .l619 | /bin/bash
+          echo $se9 | jq -r .brc940 | /bin/bash
+
